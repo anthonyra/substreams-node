@@ -10,9 +10,9 @@ export function createHeadersInterceptor(headers?: Headers): Interceptor {
   };
 }
 
-export function createAuthInterceptor(token: string): Interceptor {
+export function createAuthInterceptor(token?: string): Interceptor {
   return (next) => async (req) => {
-    if (!req.header.has("Authorization")) {
+    if (token || !req.header.has("Authorization")) {
       req.header.set("Authorization", `Bearer ${token}`);
     }
 

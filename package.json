@@ -32,7 +32,6 @@
     "@bufbuild/protobuf": "latest",
     "@connectrpc/connect": "latest",
     "@connectrpc/connect-node": "latest",
-    "@connectrpc/protoc-gen-connect-es": "^1.1.3",
     "@substreams/core": "^0.1.19",
     "eventemitter3": "latest"
   },
