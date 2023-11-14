@@ -1,5 +1,5 @@
-import type { CallOptions, Transport } from "@bufbuild/connect";
-import { createPromiseClient } from "@bufbuild/connect";
+import type { CallOptions, Transport } from "@connectrpc/connect";
+import { createPromiseClient } from "@connectrpc/connect";
 import { AnyMessage, IMessageTypeRegistry, JsonObject, Message } from "@bufbuild/protobuf";
 import { Progress, createStateTracker, isEmptyMessage, unpackMapOutput } from "@substreams/core";
 import type {
