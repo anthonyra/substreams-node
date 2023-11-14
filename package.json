@@ -29,10 +29,11 @@
   ],
   "dependencies": {
     "@bufbuild/protobuf": "latest",
+    "@connectrpc/connect": "latest",
+    "@connectrpc/connect-node": "latest",
+    "@connectrpc/protoc-gen-connect-es": "^1.1.3",
     "@substreams/core": "^0.1.19",
-    "eventemitter3": "latest",
-    "@connectrpc/connect": "^1.1.2",
-    "@connectrpc/connect-node": "^1.1.2"
+    "eventemitter3": "latest"
   },
   "devDependencies": {
     "@tsconfig/recommended": "latest",
